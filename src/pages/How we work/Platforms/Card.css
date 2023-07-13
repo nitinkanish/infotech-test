@@ -9,3 +9,12 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 767px){
+
+.card {
+    position: static;
+    margin: 20px auto;
+}
+
+
+}

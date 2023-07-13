@@ -2,7 +2,7 @@
     font-size: 36px;
     font-weight: 600;
     /* line-height:43.57px; */
-    height: 120vh;
+    height: auto;
     margin-bottom: 2rem;
 }
 
@@ -29,7 +29,7 @@
 .S-container {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: auto;
     /* position: relative; */
     padding: 2rem 7rem;
 
@@ -171,4 +171,17 @@
 
 .selected {
     border: 5px solid #8CDCD9;
+}
+@media screen and (max-width: 767px) {
+    .S-container {
+        padding: 0 1rem;
+        flex-direction: column;
+    
+    }
+    .S-left{
+        margin-left: 0;
+    }
+    .S-right{
+        width: 100%;
+    }
 }

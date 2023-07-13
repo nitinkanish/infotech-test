@@ -3,7 +3,7 @@
     background: linear-gradient(129.17deg, #708795 27.55%, rgba(112, 135, 149, 0) 127.64%);
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: auto;
     display: flex;
     flex-direction: row;
    
@@ -11,7 +11,7 @@
 
 .P-left{
     width:50%;
-    position: absolute;
+    /* position: absolute; */
     margin-left: 40px;
 }
 
@@ -57,14 +57,14 @@ h1::after{
 
 .P-right{
     width:50%;
-    position: absolute;
+    /* position: absolute; */
     margin-left: 40px;
     right:0;
 }
 
 .cards{
     position: relative;
-    top: 150px;
+    /* top: 150px; */
 }
 
 
@@ -87,3 +87,22 @@ h1::after{
      border-radius: 20px;
 }
 
+@media screen and (max-width: 767px){
+    .Platforms {
+        flex-direction: column;
+    }
+    
+    .P-left {
+        width: 100%;
+    }
+    .left-content {
+        padding: 0;
+    }
+    
+    .P-right {
+        width: 100%;
+    }
+    .P-right {
+        margin: 10px 0px;
+    }
+}

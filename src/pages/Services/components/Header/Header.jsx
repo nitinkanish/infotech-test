@@ -9,7 +9,7 @@ const Header = () => {
     backgroundRepeat: "no-repeat",
     overflow: "hidden",
     width: "100%",
-    height: "40vh",
+    height: "auto",
     filter: "drop-shadow(0px 8px 6px rgba(0, 0, 0, 0.25))",
   };
   return (

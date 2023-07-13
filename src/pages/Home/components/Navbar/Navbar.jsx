@@ -5,6 +5,9 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="n-wrapper">
+    <div className="container">
+    <div className="n-wrapper">
+
       <div className="n-left">
         <div className="n-logo">
           <img src={logo} />
@@ -48,6 +51,8 @@ function Navbar() {
         </div>
         <button className="button n-button">Contact Us</button>
       </nav>
+    </div>
+    </div>
     </div>
   );
 }

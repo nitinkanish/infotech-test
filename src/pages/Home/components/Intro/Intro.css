@@ -5,17 +5,19 @@
     height: calc(100vh - 15vh);
 }
 
-.Intro-text{
+.Intro-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:50%;
+    width: 50%;
     position: absolute;
-    left: 570px;
-    top: 335px;
-
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 205px;
 }
-
 .Intro-text>:nth-child(1){
     color:var(--red);
     font-weight:bold;
