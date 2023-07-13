@@ -113,5 +113,11 @@
         align-items: center;
         justify-content: center;
     }
+    .WorkProcessSection .LowerRow div:nth-child(2):before {
+        display: none;
+    }
     
+    .WorkProcessSection .UpperRow .WorkProcessImgHolder:before {
+        display: none;
+    }
 }

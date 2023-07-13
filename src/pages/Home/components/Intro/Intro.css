@@ -39,3 +39,15 @@
     margin-top: 2rem;
     justify-content: center;
 }
+@media screen and (max-width: 767px){
+    .Intro-text {
+        width: 80%;
+        position: static;
+        padding: 50px 0;
+        height: auto;
+    }
+    
+    .Intro {
+        height: auto;
+    }
+}
