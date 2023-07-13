@@ -67,7 +67,9 @@
     transition: all 0.4s;
     text-decoration: none;
 }
-
+.toggle-menu{
+    display: none;
+}
 
 .nav_link:hover{
     color:var(--cyan);
@@ -93,4 +95,26 @@
 
 .n-button{
     margin-left: 2rem;
+}
+
+@media screen and (max-width: 767px){
+    .n-right {
+        display: none;
+    }
+    .toggle-menu{
+        display: block;
+    }
+    .n-right.open {
+        display: block;
+        position: absolute;
+        background: #000;
+        padding: 10px;
+        left: 0;
+        top: 100px;
+        right: 0;
+    }
+    
+    .n-right .nav_list {
+        flex-direction: column;
+    }
 }

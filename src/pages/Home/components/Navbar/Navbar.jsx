@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from 'react';
 import logo from "../../../../assets/svg/logo.svg";
 import "./Navbar.css";
 
 function Navbar() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
   return (
     <div className="n-wrapper">
     <div className="container">
@@ -13,8 +17,8 @@ function Navbar() {
           <img src={logo} />
         </div>
       </div>
-
-      <nav className="n-right">
+      <span className="toggle-menu" onClick={toggleNav}>Menu</span>
+      <nav className={isNavOpen ? 'n-right open' : 'n-right'}>
         <div className="n-list">
           <ul className="nav_list">
             <li className="nav_item">
