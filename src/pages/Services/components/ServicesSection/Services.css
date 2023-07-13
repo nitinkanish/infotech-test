@@ -1,0 +1,174 @@
+.Services {
+    font-size: 36px;
+    font-weight: 600;
+    /* line-height:43.57px; */
+    height: 120vh;
+    margin-bottom: 2rem;
+}
+
+.Services>h2 {
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+}
+
+.Services>p>span {
+    display: flex;
+    flex-direction: column;
+    color: #989595;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 10px 20px 20px 20px; */
+}
+
+
+.S-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    /* position: relative; */
+    padding: 2rem 7rem;
+
+}
+
+.S-left {
+    position: relative;
+    flex: 1;
+    z-index: 1;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.S-overlay {
+    background: linear-gradient(165.78deg, #708795 10.11%, rgba(112, 135, 149, 0) 186.55%);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    width: 242px;
+    height: 710px;
+    position: relative;
+    z-index: -1;
+}
+
+.Stack {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem 1rem 2rem 6.5rem;
+
+}
+
+
+.Stack>div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Stack>div>p {
+    text-align: center;
+    align-items: center;
+    color: var(--white);
+    margin: 35px 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* .BackEnd{
+    position: absolute;
+    background-image: url("../../../../assets/images/Backend.png");
+    background-repeat: no-repeat;
+    background-size: "cover";
+    background-repeat: "no-repeat";
+    overflow: "hidden";
+    width: "100%"
+} */
+
+/* .Mobile{
+    position: absolute;
+    background-image: url("../../../../assets/images/Mobile.png");
+    background-repeat: no-repeat;
+    background-size: "cover";
+    background-repeat: "no-repeat";
+    overflow: "hidden";
+    width: "100%"
+}
+
+.Testing{
+    position: absolute;
+    background-image: url("../../../../assets/images/Testing.png");
+    background-repeat: no-repeat;
+    background-size: "cover";
+    background-repeat: "no-repeat";
+    overflow: "hidden";
+    width: "100%"
+} */
+
+
+/* .UIUX{
+    position: absolute;
+    background-image: url("../../../../assets/images/UIUX.png");
+    background-repeat: no-repeat;
+    background-size: "cover";
+    background-repeat: "no-repeat";
+    overflow: "hidden";
+    width: "100%"
+} */
+
+.S-right {
+    width: 47%;
+    margin-right: 50px;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: var(--cyan);
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.S-right>h3 {
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--black);
+    opacity: 70%;
+    display: block;
+    padding: 40px 40px 40px 40px;
+}
+
+
+.S-right>p {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 10px 20px 40px 20px;
+}
+
+
+.ContactUs>p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    color: var(--black);
+    margin: 40px 20px 20px 20px;
+}
+
+.Android&Ioslogo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 10px 20px 40px 20px;
+}
+
+.selected {
+    border: 5px solid #8CDCD9;
+}

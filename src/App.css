@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;300;500&family=Montserrat:wght@600&family=Poppins:ital,wght@1,600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    /* text-transform: capitalize; */
+    transition: 0.2s linear;
+}
+
+:root
+{
+    --black: #000000;
+    --grey: #708795;
+    --red: #F16A70;
+    --cyan:#8CDCD9;
+    --white:#F5F5F5;
+    --blue:#215374;
+}
+
+
+.App{
+    /* padding: 0.5rem  3.5rem; */
+    overflow: hidden;
+    color: var(--black);
+}
+
+
+.button{
+    /* position: absolute; */
+    width: 163px;
+    height: 48px;
+    left: 1120px;
+    top: 34px;
+    
+    background: #8CDCD9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+
+.button:active{
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform:translateY(2px);
+}

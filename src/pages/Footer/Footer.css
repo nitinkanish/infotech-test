@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding-block: 2rem;
+    height: 50vh;
+    flex-shrink: 0;
+    padding-inline: 10%;
+    background: linear-gradient(to bottom right,#708795, #708795, #cad3d8);
+    background-repeat: no-repeat;
+    margin-top: 2.2rem;
+}
+
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    padding-block: 2rem;
+    height: 100vh;
+    flex-shrink: 0;
+    padding-inline: 10%;
+}

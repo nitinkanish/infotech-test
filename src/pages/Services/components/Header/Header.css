@@ -1,0 +1,94 @@
+
+.Header{
+    position: relative;
+    margin-top: 2rem !important;
+    width: 100% !important;
+
+}
+
+.Header-text>h1{
+    position: relative;
+    color:var(--white)!important;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* display: block; */
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--blue);
+    opacity: 75%;
+  }
+  
+.Header-information{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:15rem;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1; */
+}
+
+/* EXPERIENCE */
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.experience>:nth-child(1){
+    color: var(--red);
+    font-weight: bold;
+    font-size:3rem;
+}
+
+.experience>:nth-child(2){
+    color: var(--white);
+    font-size:2.5rem;
+} 
+
+/* PROJECT */
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project>:nth-child(1){
+    color: var(--red);
+    font-weight: bold;
+    font-size:3rem;
+} 
+
+.project>:nth-child(2){
+    color: var(--white);
+    font-size:2.5rem;
+}
+
+
+/* DEVELOPERS */
+.developers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.developers>:nth-child(1){
+    color: var(--red);
+    font-weight: bold;
+    font-size:3rem;
+}
+
+.developers>:nth-child(2){
+    color: var(--white);
+    font-size:2.5rem;
+}

@@ -1,0 +1,108 @@
+.WorkProcess{
+    display: flex;
+    flex-direction: column;
+    padding-block: 2rem;
+    height: 100vh;
+    flex-shrink: 0;
+    padding-inline: 10%;
+}
+
+.WorkProcessHeader{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.WorkProcessHeader>h1{
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 1rem;
+}
+
+.WorkProcessHeader>p{
+    color: #989595;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    display: block;
+}
+
+.WorkProcessSection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 126px;
+    align-items: center;
+}
+
+.WorkProcessSection > div {
+    display: flex;
+    column-gap: 36px;
+}
+
+.WorkProcessSection .WorkProcessImgHolder {
+    border: 15px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 181px;
+    width: 181px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.WorkProcessSection .UpperRow .WorkProcessImgHolder::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    height: 1.5px;
+    width: 256px;
+    background-color: #8296A2;
+    transform: rotate(45deg) translateX(218px);
+}
+
+.WorkProcessSection .LowerRow div:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    height: 1.5px;
+    width: 200px;
+    background-color: #8296A2;
+    transform: rotate(305deg) translateX(185px);
+}
+
+.WorkProcessSection .WorkProcessImgHolder.cyan {
+    border-color: #8CDCD9;
+}
+
+.WorkProcessSection .WorkProcessImgHolder.grey {
+    border-color: #8296A2;
+}
+
+.WorkProcessSection .WorkProcessText {
+    text-align: center;
+    width: 270px;
+}
+
+.WorkProcessSection .WorkProcessText h1 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    padding-block: 1rem;
+}
+
+
+.WorkProcessSection .WorkProcessText p {
+    color: #989595;
+    font-size: 20px;
+    font-weight: 600;
+}
